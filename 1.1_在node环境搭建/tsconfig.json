@@ -1,0 +1,12 @@
+{
+  // 配置编译选项【假设中的】
+  "compilerOptions": {
+    "target": "es2016" , //es7 配置编译的标准 编译结果
+    "module": "commonjs" , // 配置编译目标使用的模块标准 node环境
+    "lib": ["es2016"] , // 去掉浏览器环境console则无法再用，需要安装第三方库。
+    "outDir": "./dist", // 编译输出目录
+    "strictNullChecks": true, // 空类型严格检查，null 和 undefined不能复制给其他类型。
+  },
+  // 编译目录
+  "include" : ["./src"], // 编译scr目录
+}
